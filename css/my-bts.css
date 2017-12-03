@@ -350,24 +350,30 @@
 .lun-main {
 	margin-top:20px;
 }
+.lun-main .carousel-indicators .ti .box{
+	height:45px;
+	line-height: 45px;
+	color:#fff;
+	text-align: center;
+}
 .lun-main .carousel-indicators .active {	
 	color:#555;
 	width:30%;
+	font-weight: 700;
 	height:100%;
 	border:2px solid #aa7733;
 	border-bottom: #fff;
 	background: #fff;
+}
+.lun-main .carousel-indicators .active .box{	
+	color:#555;
 }
 @media (max-width: 750px) { 
 	.lun-main .carousel-indicators .active {	
 		width:100%;
 	}
 }
-.lun-main .carousel-indicators .ti .box{
-	height:45px;
-	line-height: 45px;
-	text-align: center;
-}
+
 
 /*@media (min-width: @screen-sm-min) { 
 	.lun-main .carousel-indicators input{
